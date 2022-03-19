@@ -1,0 +1,36 @@
+main{
+    background-color: aquamarine;
+    width: 100%;
+    height: 920px;
+    display: flex;
+    justify-content:center;
+}
+
+.Box{
+    margin: 8%;
+    background-color: whitesmoke;
+    width: 20%;
+    height: 600px;
+    border-radius: 20px;
+    
+}
+
+.Box img{
+    margin: 8%;
+    width: 82%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.Box p{
+    text-align: center;
+    font-size: 200%;
+    margin: 1%;
+    color: darkblue;
+}
+.Box p:nth-child(3){
+    text-align: center;
+    font-size: 110%;
+    margin: 5%;
+    color: gray;
+}
